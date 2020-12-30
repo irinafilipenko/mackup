@@ -1,0 +1,36 @@
+.nav__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item:first-child {
+  padding-right: 48px;
+}
+
+.nav__item:nth-child(2) {
+  padding-right: 4px;
+}
+
+.nav__item:nth-child(3) {
+  padding-right: 39px;
+}
+
+.nav__item:nth-child(4) {
+  padding-right: 30px;
+}
+
+.nav__link {
+  text-decoration: none;
+  display: block;
+  padding-top: 25px;
+  padding-bottom: 24px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 1.09091px;
+  color: #48555b;
+}
