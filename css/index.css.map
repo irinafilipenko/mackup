@@ -5,7 +5,8 @@
         "../saas/index.scss",
         "../saas/base/_common.scss",
         "../saas/components/_page-header.scss",
-        "../saas/components/_page-nave.scss"
+        "../saas/components/_page-nave.scss",
+        "../saas/components/_our-story.scss"
     ],
     "names": [],
     "file": "index.css"
