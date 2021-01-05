@@ -1,14 +1,47 @@
+.services {
+  margin-bottom: 115px;
+}
+.services__section {
+  display: flex;
+  margin-bottom: 78px;
+}
+
 .services__description {
+  display: block;
+  width: 405px;
+  height: 38px;
   font-size: 11px;
   line-height: 19px;
   letter-spacing: 0.2px;
-  color: #48555b;
+  color: var(--first-color);
+  margin-right: 32px;
 }
 
-.cards__title {
+.title--services {
+  display: block;
+  margin-right: 155px;
+}
+
+.cards-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-list__item {
+  width: 295px;
+  height: 330px;
+  border: 1px solid #e6e6e6;
+  box-sizing: border-box;
+  padding-top: 38px;
+  padding-bottom: 39px;
+  padding-right: 22px;
+  padding-left: 23px;
+}
+
+.cards-list__title {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.426667px;
-  color: #48555b;
+  color: var(--first-color);
 }

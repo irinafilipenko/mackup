@@ -29,8 +29,8 @@
 
 <main>
     
-    <section class="nav container">
-        <div class="nav__section">
+    <section class="nav">
+        <div class="nav__section container">
             <a class="link--logo" href="./index.html" lang="en">
             <img  class="nav__logo" src="./image/logo-black.jpg" alt="logo" >
             </a>
@@ -46,57 +46,61 @@
 
     
     <section class="about container">
-        <h2 class="title">OUR STORY</h2>
-        <div>
-            <p class="about__subtitle">Founded in 2011 by John Mathew Smith, Konstruct has become the number one construction management firm</p>
-            <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
-            laoreet dolore magna aliquam erat.</p>
-            <ul>
-                <li class="about__advantages">WE PLAN</li>
-                <li class="about__advantages">WE MANAGE</li>
-                <li class="about__advantages">WE BUILD</li>
+        <h2 class="title title--about">OUR STORY</h2>
+        <div class="about__section">
+            <div class="">
+                <p class="about__subtitle">Founded in 2011 by John Mathew Smith, <span class="about__subtitle--accent">Konstruct</span> Konstruct has become the number one construction management firm</p>
+                <p class="text about__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat.</p>
+            </div>
+            <ul class="about__list">
+                    <li class="about__advantages">WE PLAN</li>
+                    <li class="about__advantages">WE MANAGE</li>
+                    <li class="about__advantages">WE BUILD</li>
             </ul>
         </div>
 
     </section>
 
     <section class="services container">
-       <h2 class="title">OUR CAPABILITIES</h2>
-       <p class="services__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-    magna aliquam erat.</p>
-    <button class="button-text">ALL SERVICES</button>
-    <ul>
-        <li class="cards">
-            <h3 class="cards__title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
-             <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+        <div class="services__section">
+            <h2 class="title title--services">OUR CAPABILITIES</h2>
+            <p class="services__description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
             magna aliquam erat.</p>
-        </li>
-        <li>
-            <h3 class="cards__title">STRUCTURE AUDIT AND MAINTENANCE</h3>
-            <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat.</p>
-        </li>
-        <li>
-            <h3 class="cards__title">FACTORY CONSTRUCTION AND MODELING</h3>
-            <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat.</p>
-        </li>
-    </ul>
+            <button class="button">ALL SERVICES</button>
+        </div>
+       <ul class="cards-list">
+            <li class="cards-list__item">
+                <h3 class="cards-list__title">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat.</p>
+            </li>
+            <li class="cards-list__item">
+                <h3 class="cards-list__title">STRUCTURE AUDIT AND MAINTENANCE</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat.</p>
+            </li>
+            <li class="cards-list__item">
+                <h3 class="cards-list__title">FACTORY CONSTRUCTION AND MODELING</h3>
+                <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                magna aliquam erat.</p>
+            </li>
+       </ul>
 
     </section>
 
     <section class="get-in-touch">
         <div class="container">
         <h2 class="get-in-touch__title">Want to build something amazing?</h2>
-        <button class="button-text">GET IN TOUCH</button>
+        <button class="button button--get-in-touch">GET IN TOUCH</button>
         </div>
     </section>
 
     <section class="form">
-        <div class="container">
-        <h2 class="form__title">Newsletter Signup</h2>
-        <button class="button-text">SIGNUP</button>
+        <div class="container form__section">
+            <h2 class="form__title">Newsletter Signup</h2>
+            <button class="button ">SIGNUP</button>
         </div>
     </section>
 
@@ -104,78 +108,88 @@
 
 <footer class="footer">
     <div class="container">
-    <h2 class="undertitle">COMPANY</h2>
-    <a class="link-logo" href="./index.html" lang="en">
-        <img class="header__logo" src="./image/projeco-logo.jpg">
-    </a>
-    <p class="footer__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-    magna aliquam erat.</p>
-    
-    <h2 class="undertitle">LINKS</h2>
-    <ul>
-        <li class="footer__item">
-            <a class="footer__link" href="#">HOME</a>
-        </li>
-        <li class="footer__item">
-            <a class="footer__link" href="#">ABOUT</a> 
-        </li>
-        <li class="footer__item">
-            <a class="footer__link">SERVICES</a> 
-        </li>
-        <li class="footer__item">
-        <a class="footer__link">WORK</a>  
-       </li>
-        <li class="footer__item">
-        <a class="footer__link">CONTACT</a> 
-       </li>
-    </ul>
+        <div class="footer__section">
+            
+            <div class="footer__company">
+                    <h2 class="undertitle">COMPANY</h2>
+                    <a class="link-logo" href="./index.html" lang="en">
+                        <img class="header__logo" src="./image/projeco-logo.jpg">
+                    </a>
+                    <p class="footer__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                        magna aliquam erat.</p>
+            </div>
 
-    <ul>
-        <li class="footer__item">
-            <a class="footer__link">BLOG</a>
-        </li>
-        <li class="footer__item">
-            <a class="footer__link">TERMS</a>
-        </li>
-        <li class="footer__item">
-        <a class="footer__link">CAREERS</a>
-    </li>
-    </ul>
+            <div class="footer__nav">
+                    <h2 class="undertitle">LINKS</h2>
+                    <ul>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">HOME</a>
+                        </li> 
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">ABOUT</a> 
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link">SERVICES</a> 
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link">WORK</a>  
+                       </li>
+                        <li class="footer__item">
+                            <a class="footer__link">CONTACT</a> 
+                       </li>
+                    </ul>
+            </div>
 
-    <ul>
-        <li class="footer__item">
-            <a class="footer__link">BLOG</a>
-        </li>
-        <li class="footer__item">
-            <a class="footer__link">PARTNERS</a>
-        </li>
-        <li class="footer__item">
-            <a class="footer__link">NEWS</a>
-        </li>
-    </ul>
-
-    <address class="address">
-        <h2 class="undertitle">CONTACT US</h2>
-        <ul>
-            <li> 
-               <a class="address__link" href="#">213 Baker Street Oriel City Kounty7000 KNW, Kountry Name </a>
+            <ul >
+                <li class="footer__item">
+                    <a class="footer__link">BLOG</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link">TERMS</a>
+                </li>
+                <li class="footer__item">
+                <a class="footer__link">CAREERS</a>
             </li>
-            <li>
-                <a class="address__link" href="tel:+239942334022">+23 994 233 4022</a>
-            </li>
-            <li>
-                <a class="address__link" href="malito:info@konstruct.com">info@konstruct.com</a>
-            </li>
-        </ul>
+            </ul>
 
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        <p class="undertitle">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
-    </address>
+            <ul>
+                <li class="footer__item">
+                    <a class="footer__link">BLOG</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link">PARTNERS</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link">NEWS</a>
+                </li>
+            </ul>
+
+            <address class="address">
+                <h2 class="undertitle">CONTACT US</h2>
+                <ul>
+                    <li> 
+                    <a class="address__link" href="#">213 Baker Street Oriel City Kounty7000 KNW, Kountry Name </a>
+                    </li>
+                    <li>
+                        <a class="address__link" href="tel:+239942334022">+23 994 233 4022</a>
+                    </li>
+                    <li>
+                        <a class="address__link" href="malito:info@konstruct.com">info@konstruct.com</a>
+                    </li>
+                </ul>
+            </address>
+
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
     </div>
+      </div>
+          <div class="copyright">
+            <p class="container undertitle undertitle-copyright">© 2017 Konstruct Inc. Designed by Jane Kathryn Teo</p>
+         </div>
+    
 </footer>
 
 </body>

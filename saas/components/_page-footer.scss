@@ -1,12 +1,12 @@
 .footer {
-  background-color: gray;
+  background-color: #141a20;
 }
 
 .footer__text {
   font-size: 11px;
   line-height: 1.73;
   letter-spacing: 0.85px;
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 
 .footer__link {
@@ -14,12 +14,28 @@
   font-size: 11px;
   line-height: 2.27;
   letter-spacing: 0.846154px;
-  color: #ffffff;
+  color: var(--secondary-color);
 }
 
 .address__link {
   font-size: 11px;
   line-height: 1.45;
   letter-spacing: 0.846154px;
-  color: #ffffff;
+  color: var(--secondary-color);
+}
+
+.footer__section {
+  display: flex;
+  padding-top: 42px;
+  padding-bottom: 40px;
+}
+
+.copyright {
+  background-color: #171819;
+  padding-top: 22px;
+  padding-bottom: 23px;
+}
+
+.undertitle-copyright {
+  text-align: center;
 }
