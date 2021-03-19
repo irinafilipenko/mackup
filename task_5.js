@@ -147,7 +147,7 @@ class Worker1 {
 class TopLevelWorker1 extends Worker1 {
     
     constructor(salary, name, surname, age, position, hierarchyLevel) {
-        super(salary, name, surname, age, position, hierarchyLevel);
+        super(salary, name, surname, age, position);
         this.hierarchyLevel = hierarchyLevel;
         
     }
